@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-custom {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: contain;
+}
