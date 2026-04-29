@@ -101,7 +101,7 @@ function renderCart() {
       </button>
     </div>
   `).join("");
-
+ //actualiza cantidad en boton carrito
   document.getElementById("cartCount").textContent = cart.length;
 }
 
